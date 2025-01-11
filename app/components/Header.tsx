@@ -20,10 +20,9 @@ export function Header() {
 
   return (
     <header className="flex justify-between items-center py-9 px-5 md:px-0">
-      <Link href="/">
-        <div className="text-2xl">
-          Mdx<span className="font-bold">Blog</span>
-        </div>
+      <Link href="/" className="flex items-center space-x-1">
+        <Image src="/logo.png" alt="logo" width={30} height={30} />
+        <p className="text-xl">Blogger</p>
       </Link>
       <div className="flex space-x-10">
         <nav className="space-x-10">
