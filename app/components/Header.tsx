@@ -22,7 +22,7 @@ export function Header() {
     <header className="flex justify-between items-center py-9 px-5 md:px-0">
       <Link href="/" className="flex items-center space-x-1">
         <Image src="/logo.png" alt="logo" width={30} height={30} />
-        <p className="text-xl">Blogger</p>
+        <p className="text-xl font-bold">Blogger</p>
       </Link>
       <div className="flex space-x-10">
         <nav className="space-x-10">

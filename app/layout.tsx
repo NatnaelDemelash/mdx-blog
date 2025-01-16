@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body className="antialiased bg-[#c7c7c7ea] dark:bg-[#1d1e29] text-black dark:text-white max-w-7xl mx-auto">
+      <body className="antialiased bg-[#f7f6f6] dark:bg-[#1d1e29] text-black dark:text-white max-w-7xl mx-auto">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
